@@ -15,8 +15,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+// import javafx.scene.layout.HBox;
+// import javafx.scene.layout.VBox;
 import javafx.stage.*;
 
 /**
@@ -33,12 +33,7 @@ public class Configure extends Application {
     public void start(Stage primaryStage) throws Exception {
         
         window = primaryStage;
-        Separator sp1 = new Separator(Orientation.VERTICAL);
-        Separator sp2 = new Separator(Orientation.VERTICAL);
-        Separator sp3 = new Separator(Orientation.VERTICAL);
-        Separator sp4 = new Separator(Orientation.VERTICAL);
-        Separator sp5 = new Separator(Orientation.VERTICAL);
-        Separator sp6 = new Separator(Orientation.VERTICAL);
+
         Label l_UID, l_LOCATION, l_CO2MIN, l_CO2MAX, l_SETCO2, l_SETTEMP, l_TEMPMIN, l_TEMPMAX, l_SEARCHSENSOR;
         l_UID = new Label("UID");
         l_LOCATION = new Label("LOCATION");
